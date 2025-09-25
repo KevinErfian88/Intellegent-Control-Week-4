@@ -1,0 +1,34 @@
+Nama	: Kevin Erfian Pratama Putra
+NIM	: 224308086
+Kelas	: TKA-7D
+
+Analisis dan Diskusi
+
+Minggu 4
+
+Analisis Hasil:
+1. Performa Agen di CartPole:
+   Agen DQN bertugas menjaga keseimbangan tiang di atas kereta. Jika pelatihan optimal, agen dapat bertahan lama. Jika tidak, performanya kurang baik.
+
+2. Pengaruh Parameter terhadap Kinerja Agen:
+   - Gamma		: Menentukan fokus agen pada reward jangka pendek atau panjang.
+   - Epsilon		: Mengontrol eksplorasi dan eksploitasi tindakan.
+   - Learning Rate	: Memengaruhi kecepatan dan stabilitas pembelajaran.
+
+3. Tantangan Pelatihan RL:
+   - Menyeimbangkan eksplorasi dan eksploitasi.
+   - Menghindari ketidakstabilan pelatihan.
+   - Menyesuaikan parameter dengan optimal.
+
+Diskusi:
+1. Perbedaan RL dan Supervised Learning dalam Kendali:
+   - RL			: Belajar dari pengalaman dengan mekanisme reward.
+   - Supervised Learning: Menggunakan dataset berlabel untuk belajar pola.
+   - RL lebih cocok untuk lingkungan dinamis dan kompleks.
+2. Optimasi Eksplorasi dan Eksploitasi RL:
+   - Epsilon-greedy decay	: Eksplorasi tinggi di awal, menurun seiring waktu.
+   - UCB & Boltzmann Exploration: Menyeimbangkan eksplorasi dan eksploitasi berdasarkan reward.
+3. Aplikasi RL dalam Sistem Kendali Nyata:
+   - Robotika		: Mengoptimalkan pergerakan.
+   - Kendaraan Otonom	: Mengambil keputusan adaptif.
+   - Industri & Drone	: Meningkatkan efisiensi dan navigasi otomatis.
